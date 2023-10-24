@@ -14,7 +14,7 @@ import bootstrap from "./tech/bootstrap.png"
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
-import tindog from "./tindog.png";
+import raisewise from "./raisewise.png";
 import simon from "./simon.png";
 import tagit from "./tagit.png";
 
@@ -35,7 +35,7 @@ export {
   reactjs,
   tailwind,
   threejs,
-  tindog,
+  raisewise,
   simon,
   tagit,
 };

@@ -11,9 +11,9 @@ import {
   nodejs,
   bootstrap,
   simon,
-  tindog,
   tagit,
   threejs,
+  raisewise,
 } from "../assets";
 
 export const navLinks = [
@@ -96,16 +96,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "html/css",
         color: "pink-text-gradient",
       },
     ],
     image: tagit,
-    source_code_link: "https://github.com/TijilM/TagIt",
+    source_code_link: "https://github.com/Y-ashRathore/TagIt",
   },
   {
     name: "Simon Game",
@@ -129,25 +129,25 @@ const projects = [
     source_code_link: "https://y-ashrathore.github.io/SimonGame/",
   },
   {
-    name: "Tin Dog",
+    name: "RaiseWise",
     description:
-      "TinDog is a fun and interactive website that brings together dog owners and their furry companions in a playful and social manner. Modeled after the popular dating app Tinder.",
+      "A decentralized blockchain-implemented crowdfunding website that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",
     tags: [
       {
-        name: "javascript",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "html/css",
         color: "pink-text-gradient",
       },
     ],
-    image: tindog,
-    source_code_link: "https://y-ashrathore.github.io/TinDog/",
+    image: raisewise,
+    source_code_link: "https://github.com/Y-ashRathore/SIH-Crowdfunding-Platform",
   },
 ];
 
