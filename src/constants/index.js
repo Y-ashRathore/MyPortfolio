@@ -147,7 +147,7 @@ const projects = [
       },
     ],
     image: raisewise,
-    source_code_link: "https://github.com/Y-ashRathore/SIH-Crowdfunding-Platform",
+    source_code_link: "https://github.com/Y-ashRathore/RaiseWise",
   },
 ];
 
