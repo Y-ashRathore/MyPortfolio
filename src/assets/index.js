@@ -13,10 +13,14 @@ import nodejs from "./tech/nodejs.png"
 import bootstrap from "./tech/bootstrap.png"
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import docker from "./tech/docker.png";
+import git from "./tech/git.png";
+import cpp from "./tech/cpp.png";
 import threejs from "./tech/threejs.png";
 import raisewise from "./raisewise.png";
 import simon from "./simon.png";
 import tagit from "./tagit.png";
+import findflames from "./company/findflames.png";
 
 export {
   logo,
@@ -38,4 +42,9 @@ export {
   raisewise,
   simon,
   tagit,
+  findflames,
+  docker,
+  git,
+  cpp,
 };
+

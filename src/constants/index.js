@@ -10,10 +10,14 @@ import {
   tailwind,
   nodejs,
   bootstrap,
+  docker,
+  git,
+  cpp,
   simon,
   tagit,
   threejs,
   raisewise,
+  findflames,
 } from "../assets";
 
 export const navLinks = [
@@ -45,7 +49,7 @@ const services = [
     icon: skill1,
   },
   {
-    title: "DSA, C++, SQL, OS, Cloud",
+    title: "DSA, C/C++, SQL, Docker, Git",
     icon: skill2,
   },
 ];
@@ -83,6 +87,18 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
 ];
 
 const projects = [
@@ -108,6 +124,28 @@ const projects = [
     source_code_link: "https://github.com/Y-ashRathore/TagIt",
   },
   {
+    name: "RaiseWise",
+    description:
+      "A decentralized blockchain-implemented crowdfunding website that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html/css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: raisewise,
+    source_code_link: "https://github.com/Y-ashRathore/RaiseWise",
+  },
+  
+  {
     name: "Simon Game",
     description:
       "The 'Simon Memory Game' is a web-based implementation of the classic electronic game 'Simon,' designed to challenge and improve a player's memory and pattern recognition skills.",
@@ -128,27 +166,23 @@ const projects = [
     image: simon,
     source_code_link: "https://y-ashrathore.github.io/SimonGame/",
   },
+
+];
+
+const experiences = [
   {
-    name: "RaiseWise",
-    description:
-      "A decentralized blockchain-implemented crowdfunding website that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html/css",
-        color: "pink-text-gradient",
-      },
+    title: "SDE Intern",
+    company_name: "Find Flames",
+    icon: findflames,
+    iconBg: "black",
+    date: "September 2023 - November 2023",
+    points: [
+      "Collaborated closely with the design team, creating wireframes and designs for the website and various Android app interfaces.",
+      "Contributed to the development of the frontend for their official website using React.js.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Translated design mockups into responsive and interactive frontend components using HTML, CSS, and JavaScript.",
     ],
-    image: raisewise,
-    source_code_link: "https://github.com/Y-ashRathore/SIH-Crowdfunding-Platform",
   },
 ];
 
-export { services, technologies, projects };
+export { services, technologies, projects, experiences };
