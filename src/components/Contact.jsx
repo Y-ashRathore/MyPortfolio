@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -66,12 +65,10 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-10 flex xl:flex-col flex-col-reverse gap-10 overflow-hidden justify-center items-center sm:mb-3 mb-6`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='redish-gradient p-0.5 rounded-2xl'
+        className='redish-gradient p-0.5 rounded-2xl max-w-3xl w-full mx-auto'
       >
       <div className="bg-primary flex-[0.75] p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -81,6 +78,7 @@ const Contact = () => {
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
+          style={{ width: "100%" }}
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -125,15 +123,9 @@ const Contact = () => {
         </form>
         </div>
       </motion.div>
-
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
     </div>
   );
+
 };
 
 export default SectionWrapper(Contact, "contact");

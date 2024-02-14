@@ -21,6 +21,7 @@ import raisewise from "./raisewise.png";
 import simon from "./simon.png";
 import tagit from "./tagit.png";
 import findflames from "./company/findflames.png";
+import profile from "./profile.jpg";
 
 export {
   logo,
@@ -46,5 +47,6 @@ export {
   docker,
   git,
   cpp,
+  profile,
 };
 
