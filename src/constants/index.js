@@ -175,7 +175,7 @@ const experiences = [
     company_name: "Find Flames",
     icon: findflames,
     iconBg: "black",
-    date: "September 2023 - November 2023",
+    date: "April 2024 - July 2024",
     points: [
       "Collaborated closely with the design team, creating wireframes and designs for the website and various Android app interfaces.",
       "Contributed to the development of the frontend for their official website using React.js.",
